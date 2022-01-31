@@ -2,14 +2,14 @@ body {
     font-size: 16px;
     font-family: 'Merriweather', serif;
     color: #1a1a1a;
-    background-color: #599e4b;
+    background-color: #f8b195;
 }
 
 
 /** HEADER **/
 
 #header-nav {
-    background-color: #c98715;
+    background-color: #f67280;
     border-radius: 0;
     border: 0;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #fce29e;
+    background-color: #f8b195;
 }
 
 .navbar-collapse {
@@ -33,10 +33,10 @@ body {
 }
 
 .navbar-brand h1 {
-    color: #7d1913;
+    color: #c70039;
     font-family: 'Anton', sans-serif;
     font-weight: bolder;
-    font-size: 1.8em;
+    font-size: 2em;
 }
 
 .navbar-brand a:hover {
@@ -45,7 +45,7 @@ body {
 }
 
 #nav-list {
-    background-color: #e4af34;
+    background-color: #f67280;
 }
 
 #nav-list a {
@@ -57,7 +57,7 @@ body {
 
 #nav-list a:hover {
     color: #202020;
-    background-color: #fce29e;
+    background-color: #f8b195;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -76,25 +76,57 @@ body {
 }
 
 #main-content h2 {
-    font-size: 2.9em;
+    font-size: 3em;
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 50px;
+    color: #581845;
 }
 
 #main-content h3 {
-    font-size: 1.6em;
+    font-size: 1.9em;
     font-weight: bold;
     margin-bottom: 1em;
+    color: #900c3f;
 }
 
 #chicken-tile, #beef-tile, #sushi-tile {
     width: 100%;
     padding: 20px;
-    background-color: #99ed7b;
+    background-color: #c06c84;
     margin-bottom: 60px;
-    box-shadow: 0 0 80px #18580b;
 }
 
 
 /** END HOME PAGE **/
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+  color: white;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
